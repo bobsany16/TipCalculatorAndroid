@@ -30,7 +30,7 @@ public class effPercentViewer implements ModelObserver {
 	@Override
 	public void update(TipModel h) {
 		double c = h.getEffectiveTipPercentage();
-		effPercentOutField.setText(h.formatNumber(c, 2) + "%"
+		effPercentOutField.setText(h.formatNumber(c, 1) + "%"
 				+ "");
 
 	}
