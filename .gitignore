@@ -1,6 +1,11 @@
 *.iml
+*.properties
+*.bat
 .gradle
+/gradle.wrapper
 /local.properties
+/local.idea
+/.idea
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
